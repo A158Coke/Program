@@ -1,0 +1,23 @@
+{
+  "vendor" : "Oracle",
+  "product" : "OpenJDK",
+  "default" : true,
+  "jdk_version_major" : 19,
+  "jdk_version" : "19",
+  "suggested_sdk_name" : "openjdk-19",
+  "shared_index_aliases" : [ "openjdk-19", "19" ],
+  "packages" : [ {
+    "os" : "windows",
+    "arch" : "x86_64",
+    "url" : "https://download.java.net/java/GA/jdk19/877d6127e982470ba2a7faa31cc93d04/36/GPL/openjdk-19_windows-x64_bin.zip",
+    "package_type" : "zip",
+    "unpack_prefix_filter" : "jdk-19",
+    "package_root_prefix" : "jdk-19",
+    "package_to_java_home_prefix" : "",
+    "archive_file_name" : "openjdk-19_windows-x64_bin.zip",
+    "install_folder_name" : "openjdk-19",
+    "archive_size" : 194357214,
+    "unpacked_size" : 324654449,
+    "sha256" : "8fabcee7c4e8d3b53486777ecd27bb906d67d7c1efd1bf22a8290cf659afa487"
+  } ]
+}
